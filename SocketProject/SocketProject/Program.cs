@@ -15,6 +15,7 @@ public class SynchronousSocketListener{
         byte[] bytes = new Byte[1024];
         DateTime localTime = DateTime.Now;
         DateTime utcTime = DateTime.UtcNow;
+        DateTime localClientTime = DateTime.
         string CultureName = "de-DE";
         var CultureInfo = new CultureInfo(CultureName);
         string msgUtcTime = "UTC time: " + utcTime.ToString(CultureInfo) + "\r\n";
